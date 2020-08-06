@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "FirstServlet", urlPatterns = "/formTable.html")
-public class FirstServlet extends HttpServlet {
+@WebServlet(name = "TableServlet", urlPatterns = "/formTable.html")
+public class TableServlet extends HttpServlet {
     @Override
     public void service(ServletRequest req, ServletResponse res) throws IOException {
         PrintWriter out = res.getWriter();
